@@ -1,4 +1,4 @@
-let msg = "hello from ks";
+ 
 class ComputerNumber {
     #arr;
     #playerIndex
