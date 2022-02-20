@@ -1,0 +1,76 @@
+ body{
+    margin: 0px;
+    padding: 0px;
+    color: #004af5;;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    gap: 1rem;
+}
+ .plateau{
+      
+    width: 426px; 
+    height: 426px;
+    background-size: cover;
+    background-color: rgba(230, 230, 233, 0.322);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4,1fr);
+    border-radius: 3px;
+    box-shadow: 0 0 15px 5px rgb(173, 190, 146);
+ }
+ .text{
+   color: rgb(212, 212, 207);
+ }
+ .plateau:hover{
+     cursor: pointer;
+ }
+ .case{
+    box-shadow: 0 0 5px 2px;
+     border: blue solid 1px;
+ }
+
+ .j1couleur{
+     background-color: rgb(6, 252, 6);
+ }
+
+ .j2couleur{
+     background-color: #f501aa;
+ }
+
+ .cellwingreen{
+    box-shadow: 0 0 10px 5px;
+    animation-name: greenanimation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+ }
+ @keyframes greenanimation {
+    0%   {background-color: rgb(6, 252, 6); transform: rotateZ(180deg);}
+    25%  {background-color: rgb(6, 252, 6); }
+    50%  {background-color: rgb(6, 252, 6);}
+    75%  {background-color: rgb(6, 252, 6);}
+    100% {background-color: rgb(6, 252, 6);}
+  }
+
+  .cellwinpink{
+    box-shadow: 0 0 10px 5px;
+    animation-name: pinkanimation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+ }
+ @keyframes pinkanimation {
+    0%   {background-color: #f501aa; transform: rotateZ(180deg);}
+    25%  {background-color: #f501aa; }
+    50%  {background-color: #f501aa;}
+    75%  {background-color: #f501aa;}
+    100% {background-color: #f501aa;}
+  }
+ button{
+     font-size: 18px;
+     
+     
+      
+ }
