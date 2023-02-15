@@ -12,10 +12,13 @@ class ComputerNumber {
     }
      getNumber(){
           console.log("player cliqued => "
-          ,this.#playerIndex, " concat => ", this.#playerIndexConcat, " boarc=> ", this.#board);
+          ,this.#playerIndex, " concat => ", 
+          this.#playerIndexConcat, " boarc=> ", 
+          this.#board, " arr=> ", this.#arr);
         //  les diag valent 30 pts
         
         let rdn =this.#arr[Math.floor(Math.random() * this.#arr.length)];
+        console.log("rdn ", rdn)
         return rdn;
         }
          

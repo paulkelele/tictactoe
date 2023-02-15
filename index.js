@@ -137,8 +137,8 @@ function checkIfWinOrTie(ligne, colonne) {
 function randomCell(arr, pindex, pindexConcat, board){
       
     const randNumber = new ComputerNumber(arr, pindex, pindexConcat, board);
-     
-    return randNumber.getNumber();
+    const callBackValue = randNumber.getNumber();
+    return callBackValue;
 }
 
 function calculIndicesDisponibles(ligne, colonne) {
