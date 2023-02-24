@@ -1,4 +1,20 @@
- 
+ /*
+max =0
+choix = None
+
+pour chaque coup de couleur
+      Gain = 0
+      Jouer ce coup
+      Memoriser le plateau
+      Repeter 1000 fois()
+          Finir la partie aleatoirement
+          Si couleur gagne
+              gain = gain +1
+          remettre le tableau memorisé
+      Si gain > max
+          max = gain
+          choix = coup    
+ */
 class ComputerNumber {
     #arr;
     #playerIndex
